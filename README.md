@@ -13,8 +13,16 @@ Please refer to Fritzing or PDF file for most current version!
 
 ![ttn_node_v3_pcb](https://user-images.githubusercontent.com/83612361/183265170-01bee6f2-5752-422e-a078-0f699fb1699f.png)
 
-### Connectors Wiring
+![LoRaWAN_Node-1](https://user-images.githubusercontent.com/83612361/183265799-35a17795-5f3f-4d37-867a-c85cc667befa.jpg)
+
+![LoRaWAN_Node-2](https://user-images.githubusercontent.com/83612361/183265817-2f7a1a1e-1e9d-4e9b-a29a-9f60a6a3cc44.jpg)
+
+### Connectors/Wiring
 ![ttn_node_wiring](https://user-images.githubusercontent.com/83612361/183265340-02fee7d6-5dc1-46e7-92a9-3ebd7063b362.png)
+
+![LoRaWAN_Node-3](https://user-images.githubusercontent.com/83612361/183265830-def8cbac-5eb0-4b49-8697-ba42429444d9.jpg)
+
+![LoRaWAN_Node-4](https://user-images.githubusercontent.com/83612361/183265832-7b003ffb-fc45-4e7e-966a-1e0f9eb263e6.jpg)
 
 ## MCU Board
 [DFRobot FireBeetle ESP32 IoT Microcontroller](https://www.dfrobot.com/product-1590.html)
