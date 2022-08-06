@@ -11,6 +11,9 @@ Please refer to Fritzing or PDF file for most current version!
 
 ![ttn_node_v3_pcb](https://user-images.githubusercontent.com/83612361/183265170-01bee6f2-5752-422e-a078-0f699fb1699f.png)
 
+### Connectors Wiring
+![ttn_node_wiring](https://user-images.githubusercontent.com/83612361/183265340-02fee7d6-5dc1-46e7-92a9-3ebd7063b362.png)
+
 ## MCU Board
 [DFRobot FireBeetle ESP32 IoT Microcontroller](https://www.dfrobot.com/product-1590.html)
 
@@ -25,3 +28,4 @@ Please refer to Fritzing or PDF file for most current version!
 
 ## Solar Panel
 [Solar Panel (6V 5W)](https://www.waveshare.com/solar-panel-6v-5w.htm)
+
