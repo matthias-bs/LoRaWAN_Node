@@ -1,6 +1,11 @@
 # LoRaWAN_Node
 
 ## TTN Node Board
+### Schematic
+Please refer to Fritzing or PDF file for most current version!
+
+![ttn_node-20220614-2_sch](https://user-images.githubusercontent.com/83612361/183265248-27ff49f0-91a8-427f-959b-108c1d9e68b8.png)
+
 ### PCB
 Please refer to Fritzing or PDF file for most current version!
 
@@ -20,4 +25,3 @@ Please refer to Fritzing or PDF file for most current version!
 
 ## Solar Panel
 [Solar Panel (6V 5W)](https://www.waveshare.com/solar-panel-6v-5w.htm)
-
