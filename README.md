@@ -3,6 +3,10 @@
 Please refer to my [BresserWeatherSensorTTN](https://github.com/matthias-bs/BresserWeatherSensorTTN) project for an example application. The hardware has some options for a variety of other uses, however.
 
 ## TTN Node Board
+
+### Patches
+TBD
+
 ### Schematic
 Please refer to Fritzing or PDF file for most current version!
 
