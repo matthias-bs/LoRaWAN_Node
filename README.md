@@ -1,6 +1,10 @@
 # LoRaWAN_Node
 
 ## TTN Node Board
+### PCB
+Please refer to Fritzing or PDF file for most current version!
+
+![ttn_node_v3_pcb](https://user-images.githubusercontent.com/83612361/183265170-01bee6f2-5752-422e-a078-0f699fb1699f.png)
 
 ## MCU Board
 [DFRobot FireBeetle ESP32 IoT Microcontroller](https://www.dfrobot.com/product-1590.html)
@@ -16,3 +20,4 @@
 
 ## Solar Panel
 [Solar Panel (6V 5W)](https://www.waveshare.com/solar-panel-6v-5w.htm)
+
