@@ -27,6 +27,10 @@ Please refer to Fritzing or PDF file for most current version!
 ## MCU Board
 [DFRobot FireBeetle ESP32 IoT Microcontroller](https://www.dfrobot.com/product-1590.html)
 
+**Note 1:** Assemble R10 and R11 with 0 Ohms resistors (or solder joints...) if you want to monitor VB.
+
+**Note 2:** The USB-serial-converter seems to be quite picky - use a short USB cable and lower bitrate when flashing!
+
 ## LoRa Radio Transceiver
 [Adafruit RFM95W LoRa Radio Transceiver Breakout](https://www.adafruit.com/product/3072) - **868 MHz Version!**
 
