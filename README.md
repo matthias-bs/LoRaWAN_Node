@@ -23,15 +23,36 @@ Actually an antenna should not be placed next to circuitry or metal parts, but t
 ![LoRaWAN_Node-2](https://user-images.githubusercontent.com/83612361/183265817-2f7a1a1e-1e9d-4e9b-a29a-9f60a6a3cc44.jpg)
 
 ### Connectors/Wiring
+
+#### Internal Wiring
+```
+                                Fuse
+                      + o------< F1 >------< +
+              BATT1                             U2 (Charger), "Batt"
+                      - o------------------< -
+
+                      + >----------------< +
+U2 (Charger), "Load"                          U1 (ESP32_Firebeetle)
+                      - >----------------< -
+```
+#### Connector Wiring
 ![ttn_node_wiring](https://user-images.githubusercontent.com/83612361/183265340-02fee7d6-5dc1-46e7-92a9-3ebd7063b362.png)
 
 ![LoRaWAN_Node-3](https://user-images.githubusercontent.com/83612361/183265830-def8cbac-5eb0-4b49-8697-ba42429444d9.jpg)
 
 ![LoRaWAN_Node-4](https://user-images.githubusercontent.com/83612361/183265832-7b003ffb-fc45-4e7e-966a-1e0f9eb263e6.jpg)
 
+
+### Assembly Options
+1. Do not assemble R42, R43, R44 and R55.
+2. Assemble C40, R40 and R41 for battery voltage measurement.
+3. Assemble R1 if a one-wire sensor is to be used (and this sensor does not have an internal pull-up).
+4. Assemble R2 and R3 for connection of I<sup>2</sup>C devices.
+5. No pin header has to be assembled for the charger module. The apparently missing connections on the PCB drawing to the module can be ignored.
+
 ### Issues and Workarounds
 1. The mounting holes are too small for the selected screws (special form; SHR Z B4,5x7,8)<br>(Fritzing limitation)<br>Workaround: Drilling with 4.5mm or a little filing.
-2. The cutouts at the lower corners of the PCB have to be done manually<br>(apparently Fritzing does not support PCB cutouts)
+2. The cutouts at the lower corners of the PCB have to be done manually.<br>(apparently Fritzing does not support PCB cutouts)
 3. The footprint for the fuse F1 is too narror.<br>As a workaround, F1 can be placed instead of connector J6 and a pin header at the actual F1 pads can be used to connect the fuse in series to the battery B+ wire. (see photo)
 4. Connection from battery B+ to analog input voltage divider is missing.<br>Workaround: Add a wire from B+ to J5.7 (A3) (see photo - white wire)
 
