@@ -86,7 +86,7 @@ Wires (1) and (2) are only needed if the battery holder does not have PCB pins.
 ### LoRa Radio Transceiver
 [Adafruit RFM95W LoRa Radio Transceiver Breakout](https://www.adafruit.com/product/3072) - **868 MHz Version!**
 
-** Note:** Don't use the transceiver without antenna!
+**Note:** Don't use the transceiver without antenna!
 
 ### Antenna
 [Delock LoRa 868 MHz Antenna SMA plug 3 dBi omnidirectional](https://www.delock.de/produkt/89769/merkmale.html)
