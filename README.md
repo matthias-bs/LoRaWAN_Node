@@ -26,16 +26,19 @@ Actually an antenna should not be placed next to circuitry or metal parts, but t
 
 #### Internal Wiring
 ```
-                                Fuse
-                      + o------< F1 >------< +
+                           (1)    Fuse
+                      + o--------< F1 >-----< +
               BATT1                             U2 (Charger), "Batt"
-                      - o------------------< -
+                      - o-------------------< -
+                                 (2)
 
 
-                      + >------------------< +
+                      + >-------------------< +
 U2 (Charger), "Load"                            U1 (ESP32_Firebeetle)
-                      - >------------------< -
+                      - >-------------------< -
 ```
+Wires (1) and (2) are only needed if the battery holder does not have PCB pins.
+
 #### Connector Wiring
 ```
                                 
