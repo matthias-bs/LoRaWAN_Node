@@ -94,6 +94,8 @@ Wires (1) and (2) are only needed if the battery holder does not have PCB pins.
 ## Solar Battery Charger
 [Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger - bq24074](https://www.adafruit.com/product/4755)
 
+**Note:** "Load Out" voltage can be different from battery voltage in certain conditions - see [Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger - bq24074 -- Overview](https://learn.adafruit.com/adafruit-bq24074-universal-usb-dc-solar-charger-breakout/overview).
+
 ## Solar Panel
 [Solar Panel (6V 5W)](https://www.waveshare.com/solar-panel-6v-5w.htm)
 
