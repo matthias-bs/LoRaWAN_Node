@@ -32,7 +32,7 @@ Actually an antenna should not be placed next to circuitry or metal parts, but t
 ### Issues and Workarounds
 1. The mounting holes are too small for the selected screws (special form; SHR Z B4,5x7,8)<br>(Fritzing limitation)<br>Workaround: Drilling with 4.5mm or a little filing.
 2. The cutouts at the lower corners of the PCB have to be done manually<br>(apparently Fritzing does not support PCB cutouts)
-3. The footprint for the fuse F1 is too narror.<br>As a workaround, F1 can be placed instead of connector J6 and the battery can be connected to a pin header at the actual F1 pads. (see photo)
+3. The footprint for the fuse F1 is too narror.<br>As a workaround, F1 can be placed instead of connector J6 and a pin header at the actual F1 pads can be used to connect the fuse in series to the battery B+ wire. (see photo)
 4. Connection from battery B+ to analog input voltage divider is missing.<br>Workaround: Add a wire from B+ to J5.7 (A3) (see photo - white wire)
 
 ## Main Components
