@@ -31,11 +31,24 @@ Actually an antenna should not be placed next to circuitry or metal parts, but t
               BATT1                             U2 (Charger), "Batt"
                       - o------------------< -
 
-                      + >----------------< +
-U2 (Charger), "Load"                          U1 (ESP32_Firebeetle)
-                      - >----------------< -
+
+                      + >------------------< +
+U2 (Charger), "Load"                            U1 (ESP32_Firebeetle)
+                      - >------------------< -
 ```
 #### Connector Wiring
+```
+                                
+                     Power  2 >------------------< +
+     Solar Power In                                   2.1mm DC Jack (U2, Charger)
+                       GND  1 >------------------< -
+
+
+                       GND  1 >----------------< 1  GND
+     OneWire Socket    VDD  2 >----------------< 2  3V3   LoRaWAN_Node, J2
+                       DQ   3 >----------------< 3  DQ
+```
+
 ![ttn_node_wiring](https://user-images.githubusercontent.com/83612361/183265340-02fee7d6-5dc1-46e7-92a9-3ebd7063b362.png)
 
 ![LoRaWAN_Node-3](https://user-images.githubusercontent.com/83612361/183265830-def8cbac-5eb0-4b49-8697-ba42429444d9.jpg)
