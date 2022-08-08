@@ -4,9 +4,6 @@ Please refer to my [BresserWeatherSensorTTN](https://github.com/matthias-bs/Bres
 
 ## TTN Node Board
 
-### Patches
-TBD
-
 ### Schematic
 Please refer to Fritzing or PDF file for most current version!
 
@@ -14,6 +11,10 @@ Please refer to Fritzing or PDF file for most current version!
 
 ### PCB
 Please refer to Fritzing or PDF file for most current version!
+
+**Note:**
+
+Actually an antenna should not be placed next to circuitry or metal parts, but the decision was made to place the antenna inside the case to avoid leakage or corrosion problems. The concept works perfectly for me. 
 
 ![ttn_node_v3_pcb](https://user-images.githubusercontent.com/83612361/183265170-01bee6f2-5752-422e-a078-0f699fb1699f.png)
 
@@ -28,19 +29,25 @@ Please refer to Fritzing or PDF file for most current version!
 
 ![LoRaWAN_Node-4](https://user-images.githubusercontent.com/83612361/183265832-7b003ffb-fc45-4e7e-966a-1e0f9eb263e6.jpg)
 
-## MCU Board
+### Issues and Workarounds
+1. The mounting holes are too small for the selected screws (special form; SHR Z B4,5x7,8)<br>(Fritzing limitation)<br>Workaround: Drilling with 4.5mm or a little filing.
+2. The cutouts at the lower corners of the PCB have to be done manually<br>(apparently Fritzing does not support PCB cutouts)
+3. The footprint for the fuse F1 is too narror.<br>As a workaround, F1 can be placed instead of connector J6 and the battery can be connected to a pin header at the actual F1 pads. (see photo)
+4. Connection from battery B+ to analog input voltage divider is missing.<br>Workaround: Add a wire from B+ to 
+## Main Components
+### MCU Board
 [DFRobot FireBeetle ESP32 IoT Microcontroller](https://www.dfrobot.com/product-1590.html)
 
 **Note 1:** Assemble R10 and R11 with 0 Ohms resistors (or solder joints...) if you want to monitor VB.
 
 **Note 2:** The USB-serial-converter seems to be quite picky - use a short USB cable and lower bitrate when flashing!
 
-## LoRa Radio Transceiver
+### LoRa Radio Transceiver
 [Adafruit RFM95W LoRa Radio Transceiver Breakout](https://www.adafruit.com/product/3072) - **868 MHz Version!**
 
 ** Note:** Don't use the transceiver without antenna!
 
-## Antenna
+### Antenna
 [Delock LoRa 868 MHz Antenna SMA plug 3 dBi omnidirectional](https://www.delock.de/produkt/89769/merkmale.html)
 
 ## Solar Battery Charger
