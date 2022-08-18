@@ -69,9 +69,10 @@ Wires (1) and (2) are only needed if the battery holder does not have PCB pins.
 ### Issues and Workarounds
 1. The mounting holes are too small for the selected screws (special form; SHR Z B4,5x7,8)<sup>(1)</sup><br>(Fritzing limitation)<br>Workaround: Drilling with 4.5mm or a little filing.
 2. The cutouts at the lower corners of the PCB have to be done manually.<br>(apparently Fritzing does not support PCB cutouts)
-3. The footprint for the fuse F1 is too narror.<br>As a workaround, F1 can be placed instead of connector J6 and a pin header at the actual F1 pads can be used to connect the fuse in series to the battery B+ wire. (see photo)
+3. The footprint for the fuse F1 is too narrow.<br>As a workaround, F1 can be placed instead of connector J6 and a pin header at the actual F1 pads can be used to connect the fuse in series to the battery B+ wire. (see photo)
 4. Connection from battery B+ to analog input voltage divider is missing.<br>Workaround: Add a wire from B+ to J5.7 (A3) (see photo - white wire)
 5. Optionally: Drill a hole to strap the battery in the holder. (see photo)
+6. Please see issue https://github.com/matthias-bs/LoRaWAN_Node/issues/1 regarding J5.1 (A0) usage
 
 (1) The screws on the photo are different ones.
 
