@@ -1,6 +1,6 @@
 # LoRaWAN_Node
 
-Please refer to my [BresserWeatherSensorTTN](https://github.com/matthias-bs/BresserWeatherSensorTTN) project for an example application. The hardware has some options for a variety of other uses, however.
+Please refer to my [BresserWeatherSensorLW](https://github.com/matthias-bs/BresserWeatherSensorLW) project for an example application. The hardware has some options for a variety of other uses, however.
 
 ## TTN Node Board
 
