@@ -100,3 +100,6 @@ Wires (1) and (2) are only needed if the battery holder does not have PCB pins.
 ## Solar Panel
 [Waveshare Solar Panel (6V 5W)](https://www.waveshare.com/solar-panel-6v-5w.htm)
 
+## Options
+
+* [Adapter for DS3231 RTC Module](RTC_Adapter/RTC_Adapter.md)
