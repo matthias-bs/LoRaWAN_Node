@@ -6,6 +6,25 @@ This adapter allows to connect the [DS3231 RTC Module for Raspberry Pi to LoRaWA
                                                                                                                                                                   
 The RTC module is connected to the LoRaWAN_Node's connector J3 (I2C Bus).
 
+**Wiring Scheme:**
+
+```ascii
+DS3231 Module                  
+(Top View; IC)                 
+ ┌─────────┐                   
+ │ GND   5 ├─────┐ LoRaWAN Node (J3)
+ │         │     │  ┌───────┐  
+ │ NC    4 │  ┌──┼──┤ 4 3V3 │  
+ │         │  │  │  │       │  
+ │ SCL   3 ├──┼──┼──┤ 3 SCL │  
+ │         │  │  │  │       │  
+ │ SDA   2 ├──┼──┼──┤ 2 SDA │  
+ │         │  │  │  │       │  
+ │ 3V3   1 ├──┘  └──┤ 1 GND │  
+ └─────────┘        └───────┘  
+
+```
+
 1. 4-Position Socket Header and Vias for SCL and SDA - Soldering
 
    ![4-Position Socket Header and Vias - Soldering](RTC_Adapter-1.jpg)
